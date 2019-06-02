@@ -5,7 +5,7 @@ OpenCV opencv;
 Rectangle[] faces;
 
 void setup(){
-  opencv = new OpenCV(this, "test.jpg");
+  opencv = new OpenCV(this, "/home/luciana/sketchbook/test.jpg");
   size (1080,720);
   
   opencv.loadCascade(OpenCV.CASCADE_FRONTALFACE);
